@@ -1,0 +1,102 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+    .roboto-thin {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto {
+        font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+    }
+
+
+    
+
+    .filled-square {
+  fill: red;
+ opacity:0%;
+  animation: fillSquare 1s linear 1s 1 normal forwards;
+}
+
+@keyframes fillSquare {
+  to {
+    opacity: 50%
+  }
+}
+
+
+
+.draw {
+  stroke-dasharray: 100 ;
+  stroke-dashoffset: 100;
+  animation: dash 3s linear 1s 1 normal forwards ; /*giving it a 1s delay to let the pdateView function catch up MAYBE CHANGE THIS*/
+/*NEED TO REMOVE DELAY FROM EVENT 1*/
+
+
+
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+</style>
+
+<div id="detect-graphic-top"></div>
+
+<div style="position: relative;">
+  
+    <style>
+  
+
+
+#calendars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+    </style>
+
+<div id="calendars"
+  >
+  <svg></svg>
+
+ 
+
+    </div>
+
+  

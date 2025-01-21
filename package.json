@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "spring-2025-calendar-md",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -35,6 +35,6 @@
     "USE_EYE_NAV": false,
     "USE_COVER_HED": false,
     "IS_EMBED": false,
-    "DOC_URL": null
+    "DOC_URL": "https://docs.google.com/document/d/1C-A0uAMoxaNPTEH18KCpBu-Q0tp8XXiyT2KqM9s1VOU/edit?tab=t.0"
   }
 }

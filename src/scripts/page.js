@@ -22,7 +22,7 @@ function init() {
 const SECTION_MAIN_SELECTOR = 'div#fusion-app';
 
 // ARTICLE_SELECTOR is where Arc Publishing puts the actual article content
-const ARTICLE_SELECTOR = 'div#fusion-app > div > div';
+const ARTICLE_SELECTOR = 'div#fusion-app > div > div.SpectrumArticleContainer__PageContainer-sc-cbk5t8-1 > div.SpectrumArticleContainer__ColumnContainer-sc-cbk5t8-4 > div.SpectrumArticleContainer__ArticleColumn-sc-cbk5t8-5 > div.SpectrumArticleContainer__ArticleBodyStyle-sc-cbk5t8-9';
 
 function hoistArticle() {
   // Store nodes of interest

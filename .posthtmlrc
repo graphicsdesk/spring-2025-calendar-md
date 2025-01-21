@@ -7,12 +7,44 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "Coming to Columbia’s campus for the first time—or even the seventh—can be overwhelming. Getting lost as you head to class is common, but it can often feel like everyone else knows exactly what’s going on when every day seems different for you. While learning where all your classes are is something that will simply take time and practice, Spectrum has you covered with understanding Columbia’s sometimes convoluted calendar."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "scrolly.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "Trying to take in all these dates can be overwhelming. Remember to take it day by day, and that there are many things—such as the plentiful breaks throughout the fall semester—to look forward to."
+          },
+          {
+            "type": "text",
+            "value": "<i>Spectrum Editor Manuela Moreyra</i><i> can be contacted at </i><a href=\"mailto:manuela.moreyra@columbiaspectator.com\"><i>manuela.moreyra@columbiaspectator.com</i></a><i>. Follow Spectrum on </i><a href=\"https://www.instagram.com/cuspectrum/\"><i>X</i></a><i> </i><a href=\"https://twitter.com/cuspectrum?lang=en\"><i>@CUSpectrum</i></a><i>. </i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy Graphics Editor Molly Durawa can be contacted at </i><a href=\"mailto:molly.durawa@columbiaspectator.com\"><i>molly.durawa@columbiaspectator.com</i></a><i>.  Follow Spectator on X </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
+          }
+        ],
+        "headline": "Fall 2024: A breakdown and academic timeline",
+        "date": "August 22, 2024",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/manuela-moreyra/\">Manuela Moreyra</a>",
+        "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/molly-durawa/\">Molly Durawa</a>",
+        "byline3": "Illustrations by ILLUSTRATOR??",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1C-A0uAMoxaNPTEH18KCpBu-Q0tp8XXiyT2KqM9s1VOU/edit?tab=t.0"
       }
     }
   }

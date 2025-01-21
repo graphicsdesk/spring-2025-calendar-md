@@ -1,0 +1,353 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Scrollama: Sticky Side Example</title>
+    <meta name="description" content="Scrollama: Sticky Side Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+    #scrolly {
+        position: relative;
+        padding: 1rem;
+      }
+    .anno{
+      font-size:14px;
+      font-family: 'Roboto', sans-serif;
+    }
+      .xlabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .ylabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+
+      
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
+     
+      .tick{
+      font-size:14px;
+    }
+
+
+      #sticky-thing {
+        margin-top:5vh;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        padding-bottom: 7vh;
+        
+        /* Center everything inside */
+        align-items: center;
+        justify-content: center;
+      }
+
+
+
+
+
+
+      #sticky-thing p {
+        /*font-size: 8rem;
+        font-weight: 900;*/
+        color: rgb(0, 0, 0);
+      }
+
+
+      .step:first-child{
+        margin-top:0vh;
+      }
+      .step {
+        margin: 0;
+        margin-top:35vh;
+        margin-bottom:35vh;
+        margin-left:0;
+        margin-right:0;
+        color: #fff;
+        background-color: #fff;
+      }
+
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+
+      .step.is-active{
+        background-color: white;
+        color: #3b3b3b;
+      }
+
+
+      .step.is-active p{
+        background-color: white;
+        color: #3b3b3b;
+      }
+
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 17px;
+        background-color:#fff;
+        opacity:1;
+      }
+
+
+      .hidden {
+        visibility: hidden;
+        opacity: 0;
+      }
+
+
+      .quarter_opacity {
+        opacity: .25;
+      }
+
+
+      .full_opacity {
+        opacity: 1 !important;
+        transition: opacity 1s;
+      }
+
+
+      .increase_width {
+        stroke-width: 0.5% !important;
+        transition: stroke-width 1s;
+      }
+
+
+      .base_width {
+        stroke-width: 0.2%;
+      }
+
+
+      .fade_in {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transition: opacity 1s;
+      }
+
+      .visible {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transition: opacity 1s;
+      }
+
+
+      #last{
+        opacity:0;
+      }
+
+
+      #twograf p:first-child{
+        margin-bottom:-3vh;
+      }
+
+
+      main{
+        margin-bottom:7.5vh;
+      }
+     
+      @media only screen and (max-width:849px) {
+      .step p{
+        font-size:14.5px;
+      }
+      }
+      @media only screen and (max-width:599px) {
+      .sticky-thing{
+        display:block;
+        margin-bottom:10vh;
+      }
+      .annotation {
+        transform: translateY(10px);
+      }
+      }
+      @media only screen and (min-width:600px) {
+      .sticky-thing{
+        display:flex;
+      }
+
+
+     
+    }
+
+    
+   
+    </style>
+    
+  </head>
+
+
+  <body>
+    <main>
+
+
+      <section id="scrolly">
+        <div id="sticky-thing">
+          <include src="calendar.html"></include>
+        </div>
+
+
+        <article>
+          <div class="step" data-step="1">
+            <p><b>First day of classes: Jan. 21            </b>
+             
+             
+              <br><br>
+
+            
+              Text blah blah
+
+
+
+              </p>
+      
+          </div>
+          <div class="step" data-step="2" >
+            <p> <b>Shopping period: Jan. 21-31 </b>
+              <br>
+              <br>
+              Text blah blah
+            </p>
+          </div>
+          <div class="step" data-step="3" style="visibility:hidden;">
+            <p>End shopping period</p>
+          </div>
+          <div class="step" data-step="4">
+            <p>
+             <b> Last day to drop classes: Feb. 25 </b>
+             <br>
+             <br>
+
+             Text blah blah
+
+            </p>
+          </div>
+          <div class="step" data-step="5">
+            <p><b>Spring midterm date: March. 10
+            </b>
+              <br>
+              <br>
+              Text blah blah
+
+              </p>
+          </div>
+          <div class="step" data-step="6">
+            <p>
+              <b>No class: March 17-21             </b>
+              <br>
+              <br>
+              Text blah blah
+          </div>
+          <div class="step" data-step="7" style="visibility:hidden;">
+            <p>End spring recess</p>
+          </div>
+          <div class="step" data-step="8">
+            <p><b>Last day to drop or pass/D/fail classes for SEAS students: March 27 </b>
+              <br><br>
+              Text blah blah
+
+              </p>
+          </div>
+          
+          <div class="step" data-step="9">
+            <p><b>Last day of classes: May 5
+            </b>
+              <br>
+              <br>
+              Text blah blah
+
+          <br><br>
+              This is also the last day for Columbia College, Barnard, and GS students to  pass/D/fail classes.
+            
+            </p>
+          </div>
+          <div class="step" data-step="10">
+            <p><b>Reading period: May 6-8
+            </b>
+              <br>
+              <br>
+              Text blah blah
+
+            </p>
+          </div>
+          <div class="step" data-step="11" style="visibility:hidden;">
+            <p>End Reading period</p>
+          </div>
+          <div class="step" data-step="12">
+            <p><b>
+              Final exams: May 9-16
+
+            </b>
+          <br>
+        <br>
+        Text blah blah
+
+      </p>
+          </div>
+          <div class="step" data-step="13" style="visibility:hidden;">
+            <p>End Final exams</p>
+          </div>
+          <div class="step" data-step="14">
+            <p><b>Commencement: May 21 </b>
+              <br><br>
+              Text blah blah
+
+              </p>
+          </div>
+
+          <div class="step" data-step="15" style="visibility:hidden;">
+            <p style="visibility:hidden;"></p>
+          </div>
+        
+          
+          <div class="step" data-step="16" style="visibility:hidden;" id="last">
+            <p style="visibility:hidden;"></p>
+          </div>
+              </article>
+
+
+
+
+       
+
+
+       
+      </section>
+
+
+    </main>
+
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="./scripts/ai2html-resizer.js"></script>
+   <!-- <script src="./scripts/scrollyscript.js"></script> -->
+   <script src="./scripts/script_calendar.js"></script>
+   
+  </body>
+</html>
