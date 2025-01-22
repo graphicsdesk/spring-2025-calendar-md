@@ -35,7 +35,7 @@ const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         {date: new Date('2025-01-31'), label: 'End of shopping period', segment: 'end', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BKWCFTETX5D3XFUR2KICPMFP4E.png'},
         {date: new Date('2025-02-25'), label: 'Last day to drop classes', segment: 'na'},
         {date: new Date('2025-03-10'), label: 'Spring midterm date', segment: 'na', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WBKEKOAX3BED3LR7466RLHXJKY.png'},
-        {date: new Date('2025-03-17'), label: 'Start of spring recess', segment: 'start', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DQGZ4DEU4NGK5APJB4KP3MENY4.png'},
+        {date: new Date('2025-03-17'), label: 'Start of spring recess', segment: 'start',},
         {date: new Date('2025-03-21'), label: 'End of spring recess', segment: 'end'},
         {date: new Date('2025-03-27'), label: 'Last day to drop or PDF classes for SEAS students', segment: 'na',},
         {date: new Date('2025-04-14'), label: 'Start registration', segment: 'start'},
@@ -43,10 +43,10 @@ const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         {date: new Date('2025-05-05'), label: 'Last day of class', segment: 'na', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y256NHNJ6FFSZLZ2ZULRUQI3DE.png',annotation: "Also the last day to PDF classes for CC, GS, and BC students", target:  new Date(2025, 5,5)},
         {date: new Date('2025-05-06'), label: 'Start of reading period', segment: 'start', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YUYOAPVRPFHIRFQ75CTARUZVNE.png'},
         {date: new Date('2025-05-08'), label: 'End of reading period', segment: 'end'},
-        {date: new Date('2025-05-09'), label: 'Start of finals', segment: 'start'},
+        {date: new Date('2025-05-09'), label: 'Start of finals', segment: 'start', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WBKEKOAX3BED3LR7466RLHXJKY.png'},
         {date: new Date('2025-05-16'), label: 'End of finals', segment: 'end'},
-        {date: new Date('2025-05-21'), label: 'Commencement', segment: 'start', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WBKEKOAX3BED3LR7466RLHXJKY.png'}, 
-        {date: new Date('2025-05-21'), label: 'Commencement end', segment: 'end', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WBKEKOAX3BED3LR7466RLHXJKY.png'}, 
+        {date: new Date('2025-05-21'), label: 'Commencement', segment: 'start',}, 
+        {date: new Date('2025-05-21'), label: 'Commencement end', segment: 'end',}, 
 
     ];
 
