@@ -30,8 +30,7 @@ const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 // data
     const events = [
-        {date: new Date('2025-01-21'), label: 'First day of class', segment: 'na', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SXKBMSVSGRG33IB2XATXOLRLD4.png'},
-        {date: new Date('2025-01-21'), label: 'Start shopping period', segment: 'start',},
+        {date: new Date('2025-01-21'), label: 'Start shopping period', segment: 'start',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SXKBMSVSGRG33IB2XATXOLRLD4.png'},
         {date: new Date('2025-01-31'), label: 'End of shopping period', segment: 'end', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BKWCFTETX5D3XFUR2KICPMFP4E.png'},
         {date: new Date('2025-02-25'), label: 'Last day to drop classes', segment: 'na'},
         {date: new Date('2025-03-10'), label: 'Spring midterm date', segment: 'na', link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WBKEKOAX3BED3LR7466RLHXJKY.png'},
